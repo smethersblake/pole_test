@@ -10,6 +10,7 @@ function Thickness ()
     }
     return (
         <div>
+            <h1>Wall Thickness</h1>
             <select id='thicknessSelect' value={pole.thickness} defaultValue={0} onChange={handleClick}>
                 {thicknessArray.map((thickness) => (
                         <option value={thickness} key={thickness}>{thickness}</option>

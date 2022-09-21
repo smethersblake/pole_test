@@ -10,6 +10,7 @@ function Diameter ()
     }
         return (
             <div>
+                <h1>Diameter</h1>
                 <select id='diameterSelect' value={pole.diameter} defaultValue={0} onChange={handleClickDiameter}>
                     {diameterArray.map((diameter) => (
                         <option value={diameter} key={diameter}>{diameter}"</option>
